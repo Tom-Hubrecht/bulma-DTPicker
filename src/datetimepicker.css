@@ -1,0 +1,36 @@
+.date-tag {
+  height: 2em;
+  width: 2em;
+  cursor: pointer;
+}
+
+.month-tag {
+  height: 2em;
+  width: 6em;
+  cursor: pointer;
+}
+
+.month-tag:hover {
+  background-color: #6681b2 !important;
+  color: white !important;
+}
+
+.date-tag:not(.is-selected):hover {
+  background-color: #6681b2 !important;
+  color: white !important;
+}
+
+.is-selected {
+  background-color: #192131 !important;
+  color: white !important;
+}
+
+.out-range {
+  background-color: white;
+  color: #7a7a7a;
+}
+
+.out-range:hover {
+  background-color: #;
+  color: #7a7a7a;
+}
